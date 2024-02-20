@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(14, 14, 14);
 }
@@ -72,9 +74,10 @@ body {
     height: 25px;
     border: transparent;
     display: none;
+    cursor: pointer;
 }
 
-@media(max-width:768px) {
+@media(max-width:927px) {
     .header {
         padding-top: 32px;
         padding-bottom: 33px;
@@ -206,7 +209,7 @@ body {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:927px) {
     .hero {
         padding-top: 50px;
         padding-bottom: 100px;
@@ -324,6 +327,7 @@ body {
     line-height: 24px;
     text-decoration: none;
     margin-top: 47px;
+    cursor: pointer;
 }
 
 .learn-more-link:hover {
@@ -340,7 +344,7 @@ body {
     filter: drop-shadow(0 0 20px rgba(187, 187, 187, 0.51));
 }
 
-@media(max-width:768px) {
+@media(max-width:1200px) {
     .artificial {
         padding-top: 100px;
         padding-bottom: 120px;
@@ -361,6 +365,10 @@ body {
 
     .learn-more-link {
         margin-top: 40px;
+    }
+    .artificial-img{
+        max-width: 658px;
+        height: 444px;
     }
 }
 
@@ -423,7 +431,7 @@ body {
     max-width: 748px;
     width: 100%;
     height: 815px;
-    background-image: url(../img/hours-bg.png);
+    background-image: url(../img/tiny-png/andrew-neel-QLqNalPe0RA-unsplash\ 1.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -513,6 +521,7 @@ body {
     border: none;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .vision-btn-title {
@@ -581,7 +590,17 @@ body {
     .design-container {
         flex-direction: column;
     }
-
+    .design-left{
+        max-width: 674px;
+        height: 674px;
+    }
+    .hours{
+        max-width: 278px;
+        height: 274px;
+    }
+    .hours-title{
+        font-size: 65px;
+    }
     .design-right-title {
         font-size: 55px;
         font-weight: 600;
@@ -725,6 +744,10 @@ body {
     .business-container {
         flex-direction: column;
     }
+    .business-img{
+        max-width: 685px;
+        height: 427px;
+    }
 }
 
 @media(max-width:378px) {
@@ -831,7 +854,6 @@ body {
 }
 
 .creating-center-box-card {
-    max-width: 360px;
     width: 100%;
     box-sizing: border-box;
     border: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -840,6 +862,8 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 52px;
+    display: flex;
+    flex-direction: column;
 }
 
 .creating-card-title {
@@ -912,7 +936,7 @@ body {
     border-bottom: 1px solid rgb(0, 163, 255);
 }
 
-@media(max-width:768px) {
+@media(max-width:1050px) {
     .creating {
         padding-top: 100px;
     }
@@ -920,7 +944,6 @@ body {
     .creating-top-box {
         flex-direction: column;
     }
-
     .creating-top-box-title {
         text-align: center;
         font-style: 50px;
@@ -945,6 +968,10 @@ body {
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 15px;
         grid-row-gap: 15px;
+        overflow: hidden;
+        max-width: 770px;
+        margin-left: auto;
+        margin-right: auto; 
     }
 
     .creating-bottom-box-title {
@@ -952,7 +979,7 @@ body {
     }
 }
 
-@media(max-width:500px) {
+@media(max-width:768px) {
     .creating-center-box {
         display: flex;
         flex-direction: column;
@@ -1385,6 +1412,7 @@ body {
     justify-content: center;
     height: 60px;
     border-right: 1px solid rgb(0, 163, 255);
+    padding-right: 18px;
 }
 
 .partners-logo {
@@ -1500,6 +1528,7 @@ body {
     font-size: 17px;
     font-weight: 700;
     line-height: 190%;
+    cursor: pointer;
 }
 
 .prices-btn-active {
@@ -2110,7 +2139,7 @@ input {
 }
 
 .habits-bg {
-    background-image: url(../img/about/image\ 47.png);
+    background-image: url(../img/tiny-png/image\ 47.png);
     max-width: 738px;
     width: 100%;
     height: 788px;
@@ -2716,6 +2745,7 @@ input {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 
 .questions-btn-title {
