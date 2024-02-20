@@ -30,3 +30,10 @@ hamburger.forEach(function(item , index){
     })
   })
  })
+
+ let see_als = document.querySelector(".popular-link")
+ let see_box = document.querySelector(".popular-logo-box")
+
+ see_als.addEventListener('click' , function(){
+  see_box.classList.toggle("h-665   ")
+ })
