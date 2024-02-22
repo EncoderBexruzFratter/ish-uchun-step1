@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css"/>
     <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
 </head>
-
 <body>
     <header class="header">
-        <div class="header-container">
+        <div data-wow-duration="2s" class="wow animate__animated animate__bounceInDown header-container">
             <ul class="nav-list">
                 <li class="nav-item">
                     <a href="./about.html#contact" class="nav-link">Connect Software</a>
@@ -35,6 +36,7 @@
             <div class="header-btn-box">
                 <button class="search-btn">
                     <img src="./img/search.svg" alt="" />
+                    <input type="text" class="search-inp">
                 </button>
                 <button class="hamburger-btn">
                     <img src="./img/hamburger.svg" alt="" />
@@ -43,6 +45,7 @@
         </div>
         <div class="hiddem-navbar">
             <div class="hiddem-navbar-container">
+                <img src="./img/icons8-x-50.png" alt="" class="x_btn">
                 <div class="bg-del"></div>
                 <ul class="nav-list-hidden">
                     <li class="nav-item">
@@ -63,19 +66,21 @@
                     <li class="nav-item">
                         <a href="./about.html" class="nav-link">About Us</a>
                     </li>
+                    <li class="footer-nav-item"><a href="#" class="footer-nav-link">HOME</a></li>
+                    <li class="footer-nav-item"><a href="./services.html" class="footer-nav-link">SERVICES</a></li>
                 </ul>
                 <div class="footer-center-hidden">
                     <div class="footer-center-icon-box">
-                        <a href="#" class="footer-icon-link">
+                        <a target="_blank" href="#" class="footer-icon-link">
                             <img src="./img/facebook (2).svg" alt="" class="footer-icon">
                         </a>
-                        <a href="#" class="footer-icon-link">
+                        <a target="_blank" href="#" class="footer-icon-link">
                             <img src="./img/twitter (1).svg" alt="" class="footer-icon">
                         </a>
-                        <a href="#" class="footer-icon-link">
+                        <a target="_blank" href="#" class="footer-icon-link">
                             <img src="./img/linkedin.svg" alt="" class="footer-icon">
                         </a>
-                        <a href="#" class="footer-icon-link">
+                        <a target="_blank" href="#" class="footer-icon-link">
                             <img src="./img/linkedin (1).svg" alt="" class="footer-icon">
                         </a>
                     </div>
@@ -85,12 +90,12 @@
     </header>
     <div class="hero">
         <div class="hero-container">
-            <h1 class="hero-title">
+            <h1 data-wow-duration="2s" class="hero-title wow animate__animated animate__fadeInLeft">
                 Power your business with Connect
                 <span class="hero-title-line"></span>
                 <span class="hero-vergul">,,</span>
             </h1>
-            <img src="./img/tiny-png/Polygon 2.png" alt="" class="hero-img" />
+            <img data-wow-duration="2s" src="./img/tiny-png/Polygon 2.png" alt="" class="wow animate__animated animate__fadeInRight hero-img" />
         </div>
     </div>
     <div class="artificial">
@@ -112,12 +117,12 @@
                 </p>
                 <a href="#" class="learn-more-link">Learn More</a>
             </div>
-            <img src="./img/tiny-png/sean-pollock-PhYq704ffdA-unsplash 1.png" alt="" class="artificial-img" />
+            <img data-wow-duration="2s" src="./img/tiny-png/sean-pollock-PhYq704ffdA-unsplash 1.png" alt="" class="wow animate__animated animate__zoomIn artificial-img" />
         </div>
     </div>
     <div class="design">
         <div class="design-container">
-            <div class="design-left">
+            <div data-wow-duration="2s" class="wow animate__animated animate__slideInLeft design-left">
                 <div class="hours">
                     <div class="border-hours">
                         <h1 class="hours-title">40+</h1>
@@ -125,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="design-right">
+            <div data-wow-duration="2s" class="wow animate__animated animate__slideInRight design-right">
                 <h1 class="design-right-title">Stunning Design And Smart Interfaces
                     <span class="design-right-line"></span>
                 </h1>
@@ -159,7 +164,7 @@
     </div>
     <div class="business">
         <div class="business-container">
-            <div class="business-left">
+            <div class="wow animate__animated animate__lightSpeedInLeft business-left">
                 <h1 class="business-title">Transform Your Business</h1>
                 <p class="business-text">
                     In order for Companies to become a strong business, companies need to build a solid foundation for
@@ -171,20 +176,20 @@
                 </p>
                 <a href="#" class="book-link">Book Your Demo</a>
             </div>
-            <img src="./img/tiny-png/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png" alt="" class="business-img">
+            <img data-wow-duration="2s" src="./img/tiny-png/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png" alt="" class="wow animate__animated animate__lightSpeedInRight business-img">
         </div>
     </div>
     <div class="creating">
         <div class="creating-container">
-            <div class="creating-top-box">
-                <h1 class="creating-top-box-title">
+            <div class=" creating-top-box">
+                <h1 data-wow-duration="2s" class="wow animate__animated animate__rotateInDownLeft creating-top-box-title">
                     Creating What You Need
                     <span class="line-box">
                         <span class="line-box-top-line"></span>
                         <span class="line-box-bottom-line"></span>
                     </span>
                 </h1>
-                <p class="creating-top-box-text">
+                <p data-wow-duration="2s" class="wow animate__animated animate__rotateInDownRight creating-top-box-text">
                     We are dedicated to creating tools that will help companies around the world improve their
                     operations and achieve greater success. <br>
                     Whether it's a new software program, a piece of machinery, or a streamlined process, we are
@@ -192,7 +197,7 @@
                 </p>
             </div>
             <div class="creating-center-box">
-                <div class="creating-center-box-card">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounce creating-center-box-card">
                     <h1 class="creating-card-title">On & Offboarding</h1>
                     <h2 class="creating-card-title2">Everything</h2>
                     <p class="creating-card-text">
@@ -203,7 +208,7 @@
                         <img src="./img/Arrow 1.svg" alt="" class="arrow">
                     </a>
                 </div>
-                <div class="creating-center-box-card">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounce creating-center-box-card">
                     <h1 class="creating-card-title">Salary & Payslips</h1>
                     <h2 class="creating-card-title2">Inside</h2>
                     <p class="creating-card-text">
@@ -214,7 +219,7 @@
                         <img src="./img/Arrow 1.svg" alt="" class="arrow">
                     </a>
                 </div>
-                <div class="creating-center-box-card">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounce creating-center-box-card">
                     <h1 class="creating-card-title">Holidays & Absence </h1>
                     <h2 class="creating-card-title2">One</h2>
                     <p class="creating-card-text">
@@ -225,7 +230,7 @@
                         <img src="./img/Arrow 1.svg" alt="" class="arrow">
                     </a>
                 </div>
-                <div class="creating-center-box-card">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounce creating-center-box-card">
                     <h1 class="creating-card-title">Marketing & Design</h1>
                     <h2 class="creating-card-title2">Program</h2>
                     <p class="creating-card-text">
@@ -238,22 +243,22 @@
                 </div>
             </div>
             <div class="creating-bottom-box">
-                <h1 class="creating-bottom-box-title">PROJECT TRACKER</h1>
-                <h1 class="creating-bottom-box-title">INVOICING TOOLS</h1>
-                <h1 class="creating-bottom-box-title">EMPLOYEE MANAGEMENT</h1>
-                <h1 class="creating-bottom-box-title">COMPANY CUSTOMER CONTACTS</h1>
+                <h1 data-wow-duration="2s" class="wow animate__animated animate__fadeInTopLeft creating-bottom-box-title">PROJECT TRACKER</h1>
+                <h1 data-wow-duration="2s" class="wow animate__animated animate__fadeInTopRight creating-bottom-box-title">INVOICING TOOLS</h1>
+                <h1 data-wow-duration="2s" class="wow animate__animated animate__fadeInBottomLeft creating-bottom-box-title">EMPLOYEE MANAGEMENT</h1>
+                <h1 data-wow-duration="2s" class="wow animate__animated animate__fadeInTopRight creating-bottom-box-title">COMPANY CUSTOMER CONTACTS</h1>
             </div>
         </div>
     </div>
     <div class="brands">
         <div class="brands-container">
-            <h1 class="brands-title">Supporting Brands for Bright Futures</h1>
+            <h1 data-wow-duration="2s" class="wow animate__animated animate__heartBeat brands-title">Supporting Brands for Bright Futures</h1>
             <div class="brands-line-box">
                 <div class="brands-line-box-top-line"></div>
                 <div class="brands-line-box-bottom-line"></div>
             </div>
             <div class="brands-card-container">
-                <div class="brands-card-border">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounceInLeft brands-card-border">
                     <div class="brands-card">
                         <img src="./img/hr.svg" alt="" class="card-icon">
                         <a href="#" class="creating-link read-more">
@@ -269,8 +274,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="brands-card-border">
-                    <div class="brands-card">z
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounceInRight  brands-card-border">
+                    <div class="brands-card">
                         <img src="./img/horse.svg" alt="" class="card-icon">
                         <a href="#" class="creating-link read-more">
                             READ MORE
@@ -284,7 +289,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="brands-card-border">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounceInLeft brands-card-border">
                     <div class="brands-card">
                         <img src="./img/soat.svg" alt="" class="card-icon">
                         <a href="#" class="creating-link read-more">
@@ -300,7 +305,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="brands-card-border">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounceInRight  brands-card-border">
                     <div class="brands-card">
                         <img src="./img/kamon.svg" alt="" class="card-icon">
                         <a href="#" class="creating-link read-more">
@@ -316,7 +321,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="brands-card-border">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounceInLeft brands-card-border">
                     <div class="brands-card padding-card">
                         <img src="./img/contact.svg" alt="" class="card-icon">
                         <a href="#" class="creating-link read-more">
@@ -331,7 +336,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="brands-card-border">
+                <div data-wow-duration="2s" class="wow animate__animated animate__bounceInRight  brands-card-border">
                     <div class="brands-card">
                         <img src="./img/rocket.svg" alt="" class="card-icon">
                         <a href="#" class="creating-link read-more">
@@ -349,7 +354,7 @@
         </div>
     </div>
     <div class="story">
-        <div class="story-container">
+        <div data-wow-duration="2s" class="wow animate__animated animate__rollIn story-container">
             <img src="./img/tiny-png/bruce-mars-FWVMhUa_wbY-unsplash 1.png" alt="" class="story-img">
             <div class="story-right">
                 <h1 class="story-right-title">A Story About Connect</h1>
@@ -380,7 +385,7 @@
         </div>
     </div>
     <div class="partners">
-        <div class="partners-conntainer">
+        <div data-wow-duration="2s" class="wow animate__animated animate__jackInTheBox partners-conntainer">
             <h1 class="partners-title">our partners</h1>
             <div class="partners-logo-box">
                 <a href="#" class="partners-logo-link"><img src="./img/combinator.svg" alt="" class="partners-logo"></a>
@@ -392,14 +397,14 @@
     </div>
     <div class="prices">
         <div class="prices-container">
-            <h1 class="prices-title">Special Prices That I Offer</h1>
-            <div class="prices-line"></div>
-            <div class="prices-btn-box">
+            <h1 data-wow-duration="2s" class="wow animate__animated animate__backInDown prices-title">Special Prices That I Offer</h1>
+            <div data-wow-duration="2s" class="wow animate__animated animate__backInDown prices-line"></div>
+            <div data-wow-duration="2s" class="wow animate__animated animate__backInDown prices-btn-box">
                 <button id="month" class="prices-btn">Monthly</button>
                 <button id="year" class="prices-btn prices-btn-active">Annually</button>
             </div>
             <div id="right" class="prices-card-container prices-card-right">
-                <div class="prices-card">
+                <div data-wow-duration="2s" class="wow animate__animated animate__backInUp prices-card">
                     <img src="./img/contact.svg" alt="" class="prices-card-img">
                     <h1 class="prices-card-title">Essential</h1>
                     <p class="prices-card-text">Perfect For Stratups</p>
@@ -410,7 +415,7 @@
                     </div>
                     <a href="#" class="see-feature-link">See Features</a>
                 </div>
-                <div class="prices-card card-center">
+                <div data-wow-duration="2s" class="wow animate__animated animate__backInUp prices-card card-center">
                     <button class="most-popular">Most Popular</button>
                     <img src="./img/rocket.svg" alt="" class="prices-card-img">
                     <h1 class="prices-card-title">Professionel</h1>
@@ -422,7 +427,7 @@
                     </div>
                     <a href="#" class="see-feature-link">See Features</a>
                 </div>
-                <div class="prices-card">
+                <div data-wow-duration="2s" class="wow animate__animated animate__backInUp prices-card">
                     <img src="./img/prices/vector (13).svg" alt="" class="prices-card-img">
                     <h1 class="prices-card-title">Enterprise</h1>
                     <p class="prices-card-text">Your Business Package</p>
@@ -474,7 +479,7 @@
     </div>  
     <div id="contact" class="contact">
         <div class="contact-container">
-            <form  action="" class="form">
+            <form data-wow-duration="2s"  action="" class="wow animate__animated animate__slideInDown form">
                 <div class="contact-top-inp">
                     <input class="mini-inp" type="text" placeholder="First Name" required>
                     <input class="mini-inp" type="text" placeholder="Last Name" required>
@@ -487,7 +492,7 @@
                 </div>
                 <button class="send">SEND</button>
             </form>
-            <div class="contact-right">
+            <div data-wow-duration="2s" class="wow animate__animated animate__slideInUp   contact-right">
                 <h1 class="contact-title">Let’s Talk Business</h1>
                 <div class="contact-line"></div>
                 <p class="contact-text">
@@ -498,10 +503,10 @@
         </div>
     </div>
     <footer class="footer">
-        <div class="footer-container">
+        <div data-wow-duration="2s" class="wow animate__animated animate__bounceInUp footer-container">
             <ul class="footer-nav-list">
-                <li class="footer-nav-item"><a href="#" class="footer-nav-link">HOME</a></li>
-                <li class="footer-nav-item"><a href="#" class="footer-nav-link">ABOUT</a></li>
+                <li class="footer-nav-item"><a href="./index.html" class="footer-nav-link">HOME</a></li>
+                <li class="footer-nav-item"><a href="./about.html" class="footer-nav-link">ABOUT</a></li>
                 <li class="footer-nav-item"><a href="./services.html" class="footer-nav-link">SERVICES</a></li>
             </ul>
             <div class="footer-center">
@@ -509,27 +514,31 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet nulla in odio ves tibulum porta.
                 </p>
                 <div class="footer-center-icon-box">
-                    <a href="#" class="footer-icon-link">
+                    <a target="_blank" href="#" class="footer-icon-link">
                         <img src="./img/facebook (2).svg" alt="" class="footer-icon">
                     </a>
-                    <a href="#" class="footer-icon-link">
+                    <a target="_blank" href="#" class="footer-icon-link">
                         <img src="./img/twitter (1).svg" alt="" class="footer-icon">
                     </a>
-                    <a href="#" class="footer-icon-link">
+                    <a target="_blank" href="#" class="footer-icon-link">
                         <img src="./img/linkedin.svg" alt="" class="footer-icon">
                     </a>
-                    <a href="#" class="footer-icon-link">
+                    <a target="_blank" href="#" class="footer-icon-link">
                         <img src="./img/linkedin (1).svg" alt="" class="footer-icon">
                     </a>
                 </div>
             </div>
             <ul class="footer-nav-list">
-                <li class="footer-nav-item"><a target="_blank" href="#" class="footer-nav-link">FAQS</a></li>
-                <li class="footer-nav-item"><a target="_blank" href="#" class="footer-nav-link">BLOGS</a></li>
-                <li class="footer-nav-item"><a target="_blank" href="#" class="footer-nav-link">CONTACT</a></li>
+                <li class="footer-nav-item"><a href="#" class="footer-nav-link">FAQS</a></li>
+                <li class="footer-nav-item"><a href="#" class="footer-nav-link">BLOGS</a></li>
+                <li class="footer-nav-item"><a href="#" class="footer-nav-link">CONTACT</a></li>
             </ul>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="./js/app.js"></script>
 </body>
 

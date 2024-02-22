@@ -2,12 +2,12 @@ let btns = document.querySelectorAll(".vision-btn");
 let texts = document.querySelectorAll(".vision-btn-text");
 
 btns.forEach(function (item, index) {
-    item.addEventListener("click", function () {
-        texts.forEach(function (element, elementindex) {
-            element.classList.remove("active");
-        });
-        texts[index].classList.add("active");
+  item.addEventListener("click", function () {
+    texts.forEach(function (element, elementindex) {
+      element.classList.remove("active");
     });
+    texts[index].classList.add("active");
+  });
 });
 // let btn3 = document.querySelector("#btn1")
 // let btn4 = document.querySelector("#btn2")
@@ -36,26 +36,37 @@ year.addEventListener("click", function () {
   left.style.left = "-1525px";
   right.style.right = "0";
 });
- let hamburger = document.querySelectorAll(".hamburger-btn")
- let hidden = document.querySelectorAll(".hiddem-navbar")
- let bgDel = document.querySelectorAll(".bg-del")
- hamburger.forEach(function(item , index){
-   item.addEventListener('click' , function(){
-     bgDel.forEach(function(bg , index){
-       bg.style.left = "100%"
-      })
-      hidden.forEach(function(hidden_item , index){
-        hidden_item.style.left = "0"
-      })
-    })
-  })
-  bgDel.forEach(function(bg , index){
-   bg.addEventListener('click' , function(){
-     hidden.forEach(function(hidden_item , index){
-       hidden_item.style.left = "-65%"
-       bg.style.left = "-100%"
-     })
-   })
-  })
-  
-  
+let hamburger = document.querySelector(".hamburger-btn");
+let hidden = document.querySelector(".hiddem-navbar");
+let bgDel = document.querySelector(".bg-del");
+let x_btn = document.querySelector(".x_btn");
+hamburger.addEventListener("click", function () {
+  bgDel.style.left = "100%";
+  hidden.style.left = "0";
+});
+x_btn.addEventListener("click", function () {
+  hidden.style.left = "-65%";
+  bgDel.style.left = "-100%";
+});
+bgDel.addEventListener("click", function () {
+  hidden.style.left = "-65%";
+  bgDel.style.left = "-100%";
+});
+
+let search = document.querySelector(".search-btn")
+let search_inp =document.querySelector(".search-inp")
+search.addEventListener("click" , function(){
+  search_inp.style.left = "0"
+})
+
+let text = document.querySelectorAll("h1")
+
+search_inp.addEventListener('input' , function(){
+    text.forEach(function(item , index){
+        if(item.textContent.toLocaleLowerCase().indexOf(input.value.toLocaleLowerCase()) > -1){
+            item.style.display = "flex"
+        }else{
+            item.style.display = "none"
+        }
+    })  
+})

@@ -696,10 +696,17 @@ input {
 }
 
 .habits-bg {
-    background-image: url(../img/tiny-png/image\ 47.png);
+    background-image: url(../img/tiny-png/habits-bg.png);
     max-width: 738px;
-    width: 100%;
     height: 788px;
+    max-width: 748px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    filter: drop-shadow(0 0 20px rgba(187, 187, 187, 0.51));
+    margin-right: 10px;
 }
 
 .hours-transparament {
@@ -749,7 +756,9 @@ input {
         height: 281px;
         object-fit: cover;
     }
-
+    .habits-bg{
+        height: 500px;
+    }
     .about-hero-right {
         overflow: hidden;
     }
@@ -847,7 +856,6 @@ input {
 .choise-box-img {
     max-width: 788px;
     width: 100%;
-    height: 447px;
     object-fit: cover;
 }
 
@@ -958,7 +966,6 @@ input {
 
     .choise-box-img {
         width: 300px;
-        height: 200px;
     }
 
     .choise-box-title {
@@ -1062,7 +1069,9 @@ input {
         align-items: center;
         gap: 40px;
     }
-
+    .team-card{
+        height: 400px;
+    }
     .team-card-title {
         font-size: 25px;
     }
@@ -1237,6 +1246,7 @@ input {
     align-items: center;
     justify-content: center;
     gap: 23px;
+    margin-bottom: 20px;
 }
 
 .popular-logo-link {
@@ -1244,9 +1254,9 @@ input {
 }
 
 .popular-logo {
-    max-width: 147px;
+    max-width: 127px;
     width: 100%;
-    height: 149px;
+    height: 129px;
     object-fit: cover;
 }
 
